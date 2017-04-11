@@ -1,9 +1,3 @@
-package 'gcc'
-package 'openssl'
-package 'libssl-dev'
-package 'zlib1g-dev'
-package 'libreadline-dev'
-
 git 'ndenv' do
   user node.user.name
   repository 'https://github.com/riywo/ndenv'
