@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "babel-node src",
-    "test": "eslint src"
+    "test": "eslint src && flow"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -13,6 +13,7 @@
     "babel-preset-flow": "^6.23.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-flowtype": "^2.30.4",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
