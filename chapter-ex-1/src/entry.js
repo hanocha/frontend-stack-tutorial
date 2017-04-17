@@ -1,1 +1,1 @@
-document.write("Hello, Webpack!");
+document.write(require("./content.js"));
