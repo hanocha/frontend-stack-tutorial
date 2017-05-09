@@ -9,7 +9,7 @@
     "prod:stop": "pm2 delete server",
     "test": "eslint src && flow && jest --coverage",
     "precommit": "yarn test",
-    "prepush": "yarn test",
+    "prepush": "yarn test && yarn prod:build",
     "prod:build": "rimraf lib && babel src -d lib --ignore .test.js"
   },
   "devDependencies": {
